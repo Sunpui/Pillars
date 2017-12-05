@@ -14,5 +14,5 @@ module.exports = function Pillars(dispatch) {
 	command.add('pillar', () => {
 		enabled = !enabled
 		command.message('Pillar module '+(enabled?'enabled.':'disabled.'))
-	}
+	)}
 }
