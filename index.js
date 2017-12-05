@@ -1,7 +1,7 @@
 const Command = require('command');
 module.exports = function Pillars(dispatch) {
-	let enabled = false;
 	const command = Command(dispatch);
+	let enabled = false;
 	
 	dispatch.hook('S_SPAWN_WORKOBJECT', 1, (event) => {
 		if(enabled) {
