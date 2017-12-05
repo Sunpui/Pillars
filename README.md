@@ -1,1 +1,2 @@
-Activates Pillars
+Activates Pillars 
+type pillar to enable
