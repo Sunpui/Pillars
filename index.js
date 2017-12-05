@@ -1,5 +1,5 @@
 const Command = require('command');
-module.exports = function Pillars(dispatch) 
+module.exports = function Pillars(dispatch) {
 	const command = Command(dispatch);
 	let enabled = false;
 	
