@@ -1,2 +1,3 @@
 Activates Pillars 
-type pillar to enable
+
+requires command module. type pillar in command to enable
