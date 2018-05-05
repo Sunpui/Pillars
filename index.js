@@ -7,8 +7,6 @@ module.exports = function Pillars(dispatch) {
 	let enabled = false;
 	let jump = false;
 	let pillar = [];
-	let zone;
-	let counter;
 	
 	dispatch.hook('S_SPAWN_WORKOBJECT', 1, event => {
 		if (enabled) {
@@ -41,7 +39,6 @@ module.exports = function Pillars(dispatch) {
 	});
 	
 	dispatch.hook('S_LOAD_TOPO', 3, event => {
-		zone = event.zone;	//9935 RKH
 		pillar = [];
 	});
 	
